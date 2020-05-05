@@ -26,12 +26,12 @@ Usaremos el siguiente [dataset](https://bscw.lecad.fs.uni-lj.si/pub/bscw.cgi/d22
   ```
   
 ## HDFS
-Ventajas
+### Ventajas
 * Best data pattern -> Write once, read many times 
 * Hadoop can run on commodity hardware 
 * Failure torelant
 
-Desventajas
+### Desventajas
 * Low-latency data access -> Optimized for high throughput of data
 * Lots of small files -> NameNode holds file system metadata in memory (Directory of the file ~ 150 bytes)
 * Multiple file writers, arbitrary file modifications -> Writes at the end of the file, in append only fashion 
