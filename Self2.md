@@ -17,7 +17,7 @@ Usaremos el siguiente [dataset](https://bscw.lecad.fs.uni-lj.si/pub/bscw.cgi/d22
 * Descargamos el dataset en algún lugar dentro de la MV.
 * Lo enviamos al HDFS: `hadoop fs -copyFromLocal PATH/TO/Term_frequencies_sentence-level_lemmatized_utf8.csv`
 * Listamos la segunda, tercera y cuarta columna : `hadoop fs -cat Term_frequencies_sentence-level_lemmatized_utf8.csv | awk -F ";" '{print $2 "," $3 "," $4}' | head`
-    ![resultados](img\hadoop_cat_awk.JPG)
+     <img img width="800" height="200" src="img\hadoop_cat_awk.jpg" >
 * Podemos enviar directamente el resultado al HDFS a tráves de los pipes : 
   ```
    hadoop fs -cat Term_frequencies_sentence-level_lemmatized_utf8.csv \
