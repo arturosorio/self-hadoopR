@@ -1,11 +1,11 @@
-# Self-Learning Hadoop-R
+# Setup VM y Rhadoop
 
-## Setup
+## Setup VM
 
 1. Obtención maquina virtual :  http://login.hpc.fs.uni-lj.si/download/
 2. Setup Maquina Virtual:
     1. Usando [VirtualBox](https://www.virtualbox.org/wiki/Downloads) instalamos la imagen de la maquina virtual obtenida anteriormente
-    2. Durante la importación de la imagen debemos proveer como minimo **4GB** de Ram y 1 CPU
+    2. Durante la importación de la imagen debemos proveer como minimo **4GB** de Ram y más de una CPU
     3. Iniciamos la maquina virtual desde el boton de start y entramos por el usuario **hdcluster** con la constraseña **hadoop**
 3. Los servicios de hadoop no inician por defecto por lo que debemos lanzarlos desde la terminal (parte inferior izquierda) con `start-dfs.sh` y `start-yarn.sh`
 

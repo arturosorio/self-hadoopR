@@ -37,7 +37,7 @@ En un sentido muy simple podemos pensar que los datos serán repartidos en 3 wor
 
     ```reduce: (key, list(value)) -> list(key, value) ```
 
-Dado que estamos interesados en hallar las primeras 2 palabras el task reduce toma el input del Map y los organiza en orden descendente por sus labels. Luego, toma el output hasta la 3 linea: 
+Dado que estamos interesados en hallar las primeras 2 palabras el task reduce toma el input del Map y los organiza en orden descendente por sus labels. Luego, toma el output hasta la 2 linea: 
 
     1 74061 biti
     1 25816 v 
