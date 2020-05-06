@@ -1,5 +1,7 @@
 # Estudio RHadoop
 
+Orientado a la compresión de como interactua R con Hadoop a tráves del Streming de Hadoop usando RHadoop. Esta es una versión que opera sobre una MV y por tanto esta sujeta a esas limitaciones. Para desplegar R sobre Hadoop en un entorno real se pueden seguir estás instrucciones: [Instalación](https://github.com/RevolutionAnalytics/RHadoop/wiki/Installing-RHadoop-on-RHEL).
+
 ## Index
 
 1. Optención de la MV, instalación y setup de RHadoop: [Setup](Setup%20VM%20y%20RHadoop.md)
