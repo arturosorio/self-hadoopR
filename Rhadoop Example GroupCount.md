@@ -1,4 +1,4 @@
-# Ejemplo RHadoop
+# Ejemplo RHadoop: Contar por grupo
 
 Luego de haber ejecutado los pasos de setup, podemos proceder con el siguiente ejemplo:
 
