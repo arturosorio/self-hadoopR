@@ -42,7 +42,8 @@ En primer lugar, definimos el Map:
 ```R
 mapper <- function(., X){
     t <- table(X[, "ciudad"])
-    keyval(1, list(t))
+    key <- names(t)
+    keyval(k, list(t))
 }
 ```
 Seguimos con el reduce: 
@@ -54,11 +55,19 @@ reducer <- function(k, A){
 ```
 
 Y finalmente ejecutamos el trabajo sobre hadoop y devolvemos el resultado
-
 ```R
-city_counts<-from.dfs(
+n_por_ciudad<-from.dfs(
     mapreduce(
-    input = "/walking",
+    input = "/caminar",
     map = mapper,
-    reduce = reducer)
-)```
+    reduce = reducer))
+```
+
+
+
+Resultado: 
+    <p align="center">
+    <img img width="400" height="500" src="img\example_1.jpg" >
+    </p>
+
+
